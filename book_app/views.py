@@ -8,3 +8,6 @@ def login(request):
 
 def reg(request):
     return HttpResponse('reg')
+
+def index(request):
+    return HttpResponse('index')
